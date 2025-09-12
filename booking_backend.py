@@ -171,7 +171,7 @@ def book_slots():
                 }), 400
 
             event = {
-                'summary': f"{student.get('sessionType', 'Python Session')} - {student.get('name', 'Student')}",
+                'summary': f"{student.get('name', 'Student')}",
                 'description': f"""Student: {student.get('name', 'N/A')}
 Email: {student.get('email', 'N/A')}
 Phone: {student.get('phone', 'Not provided')}
